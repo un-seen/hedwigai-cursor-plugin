@@ -1,0 +1,11 @@
+{
+  "name": "hedwigai",
+  "description": "The system of record for your agent: workbooks it reads and writes, with sources, kept current.",
+  "version": "1.0.0",
+  "author": { "name": "hedwigai", "email": "shashank@hedwigai.com" },
+  "homepage": "https://www.hedwigai.com/agents",
+  "repository": "https://github.com/un-seen/hedwigai-cursor-plugin",
+  "license": "MIT",
+  "keywords": ["workbooks", "research", "system-of-record", "memory", "sources", "mcp"],
+  "logo": "assets/logo.svg"
+}
