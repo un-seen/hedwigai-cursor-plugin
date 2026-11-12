@@ -15,10 +15,10 @@ A workbook is one document your agent reads and writes. It keeps every version a
 
 ## How
 
-1. Find the workbook: `search_workbooks` or `find_workbook`. Use `list_workbooks` to browse.
-2. Read before you write: `read_workbook` (or `get_sections` for one part).
-3. Write: `write_workbook` for your own edits, with `save_sources` for the pages you used.
+1. Find the workbook: `find_workbooks` — with no arguments to browse, `query` for words in it, or `describe` for the one you mean.
+2. Read before you write: `read_workbook` (with `section` or `table` for one part).
+3. Write: `write_workbook` for your own edits; `share_workbook` with `save_sources` keeps the pages you used.
 4. New topic: `create_workbook`.
-5. Ask hedwigai to research and keep it current: `update_workbook` starts a run. Runs are billed to the account, so say so first. `credits` shows the balance.
+5. Ask hedwigai to research and keep it current: `run_workbook` starts a run. Runs are billed to the account, so say so first. `credits` shows the balance.
 
 Reading, searching and writing are free.
